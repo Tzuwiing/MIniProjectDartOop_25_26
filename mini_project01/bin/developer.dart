@@ -3,9 +3,9 @@ import 'payable.dart';
 import 'reportable.dart';
 
 class Developer extends Employee implements CalculateSalary, Reportable {
-  double _basicSalary;
+  final double _basicSalary;
 
-  Developer(String name, this._basicSalary) : super(name);
+  Developer(super.name, this._basicSalary);
 
   @override
   double calculateSalary() {
