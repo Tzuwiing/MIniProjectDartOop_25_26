@@ -1,7 +1,6 @@
-import 'manager.dart';
-import 'developer.dart';
+import 'employee.dart';
 
 void main() {
-  var manager = Manager("Budi", 10000000)..generateReport();
-  var developer = Developer("Andi", 8000000)..generateReport();
+  var manager = Manager("Budi", "Manager", 15000000)..generateReport();
+  var developer = Developer("Andi", "Developer", 8000000)..generateReport();
 }
