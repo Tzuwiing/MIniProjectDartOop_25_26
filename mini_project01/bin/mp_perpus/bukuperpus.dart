@@ -15,7 +15,7 @@ class BukuPerpus extends Buku implements Peminjaman {
   void pinjam() {
     if (stok > 0) {
       stok--;
-      print("Buku Dipinjam");
+      print("Buku $judul Dipinjam !");
       showInfo2();
     } else {
       print("Maaf, stok buku $judul sedang habis.");
@@ -26,7 +26,7 @@ class BukuPerpus extends Buku implements Peminjaman {
   @override
   void kembali() {
     stok++;
-    print("Buku Dikembalikan");
+    print("Buku $judul Dikembalikan !");
     showInfo2();
   }
 }

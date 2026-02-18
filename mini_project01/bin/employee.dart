@@ -53,7 +53,6 @@ class Developer extends Employee implements CalculateSalary, Reportable {
   }
 }
 
-
 class Manager extends Employee implements CalculateSalary, Reportable {
   final double _basicSalary;
 

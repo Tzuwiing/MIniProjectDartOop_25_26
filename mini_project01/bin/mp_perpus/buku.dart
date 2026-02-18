@@ -19,9 +19,9 @@ class Buku {
   }
 
   void showInfo() {
-    print("======Buku Perpustakaan======");
+    print("====== Buku Perpustakaan ======");
     print("Judul Buku: $judul");
-    print("Stok: $stok");
+    print("Stok Buku: $stok");
     print("======================");
   }
 }
