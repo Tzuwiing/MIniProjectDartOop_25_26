@@ -29,8 +29,7 @@ void main() {
         "Tawarkan makanan dan minuman gratis kepada Passenger ${penumpang.namaPenumpang}!",
       );
     }
-    ;
     print("=====================================");
-  };
+  }
 }
   

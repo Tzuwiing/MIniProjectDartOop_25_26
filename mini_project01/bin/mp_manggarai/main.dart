@@ -1,9 +1,6 @@
 import 'krl.dart';
 import 'mrt.dart';
 import 'lrt.dart';
-import 'tiket.dart';
-import 'penumpang.dart';
-import 'tiket.dart';
 
 void main() {
   var penumpang1 = Krl.jakartaBandung("Andi", 2);
